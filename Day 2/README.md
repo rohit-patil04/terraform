@@ -61,6 +61,8 @@ Providers act as the bridge between your Terraform code and real cloud resources
 🔌 Configuring AWS Provider in Terraform
 
 After installing Terraform, configure the AWS provider to deploy AWS resources.
+
+
 🟧 1. Install AWS CLI (Optional but Recommended)
 
 Download AWS CLI:
@@ -78,8 +80,8 @@ Configure your credentials: aws configure
 
 
 🟧 2. Create Provider File (provider.tf)
+Add this file in your Terraform project: provider.tf
 
-Add this file in your Terraform project:
 🟧 3. Initialize the Provider
 
 Run: terraform init
