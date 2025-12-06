@@ -1,0 +1,42 @@
+# Local .terraform directories
+**/.terraform/*
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive files
+*.pem
+*.key
+*.env
+
+# Override files (user-specific)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output files
+*.plan
+
+# IDE / Editor directories
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments (if any)
+venv/
+__pycache__/
+
+# Logs
+*.log
